@@ -1,0 +1,302 @@
+fontPt = 'PT Sans Bold', 'PT Sans', arial
+
+position()
+    position: arguments
+
+.container
+    position absolute
+    display table
+    overflow auto
+
+.about-table
+    margin-top -50px
+    margin-left 6px
+
+.about-table__h3
+    margin-top 41px
+    margin-left 100px
+    font-family fontPt
+    font-size 22px
+    font-weight bold
+    color #2E1A15
+
+.about-table__p
+    margin-left 30px
+    margin-bottom 27px
+    font-family Courier New
+    font-size 30px
+    font-weight 400
+    text-align left
+    color #231F20
+
+.about-table__border
+    margin-top -35px
+    margin-left 14px
+    margin-bottom 30px
+
+.about-table__skype
+    color #231F20
+    text-decoration none
+
+.about-table__email
+    color #231F20
+    text-decoration none
+
+.about-table-academy
+    margin-top -23px
+    margin-left 6px
+
+.about-table-academy__h3
+    margin-left 100px
+    margin-right 2px
+    font-family fontPt
+    font-size 22px
+    font-weight 400
+    color #2E1A15
+
+.about-table-academy__link
+    margin-right: 2px;
+    font-family fontPt
+    font-size 22px
+    font-weight normal
+    color #004F98
+    border-bottom 1px solid #004F98
+    text-decoration none
+    &:hover
+        opacity 0.9
+        border-bottom: none;
+
+.about-table-academy__radio
+    margin-top 6px
+    margin-left 25px
+    font-family fontPt
+    font-size 22px
+    font-weight bold
+    color #2E1A15
+
+ input[type="radio"]
+    display none
+
+input[type="radio"] + label span
+    margin-left -12px
+    margin-right 4px
+    width 30px
+    height 28px
+    display inline-block
+    vertical-align middle
+    background url(../images/radio_empty.png) no-repeat
+    &:hover
+        cursor pointer
+
+input[type="radio"]:checked + label span
+    background url(../images/radio_checked.png) no-repeat
+
+.naviki-h3
+    margin-top 18px
+    margin-left 110px
+    font-family fontPt
+    font-size 22px
+    font-weight bold
+    color #2E1A15
+
+.naviki-info
+    margin-top 26px
+    margin-left 106px
+    line-height 1.5
+
+.naviki-info__star
+    margin-top -22px
+    font-weight bolder
+
+.naviki-info__p
+    margin-top -20px
+    width 750px
+    font-family 'PT Sans', arial
+    font-size 14px
+    font-weight lighter
+    text-align justify
+    color #3D3D3D
+
+#practical
+    max-width 83%
+
+.practical-skills
+    margin-top -18px
+    margin-left 88px
+    width 100%
+    font-family fontPt
+    font-size 21px
+    font-weight bold
+    color #000000
+
+mySelectors = '.practical-skills__check, .practical-skills__check_top'
+{mySelectors}
+    margin-left 21px
+
+.practical-skills__check_top
+    margin-top -20px
+
+input[type="checkbox"]
+    display none
+
+input[type="checkbox"] + label span
+    margin-top 2px
+    margin-right 4px
+    width 20px
+    height 24px
+    display inline-block
+    vertical-align middle
+    background url(../images/checkbox_empty.png) no-repeat
+    &:hover
+        cursor pointer
+
+input[type="checkbox"]:checked + label span
+    margin-top -5px
+    margin-right 4px
+    width 20px
+    height 32px
+    vertical-align middle
+    background url(../images/checkbox_checked.png) no-repeat
+
+.skills-js-h3
+    margin-top 33px
+    margin-left 118px
+    font-family fontPt
+    font-size 22px
+    font-weight bold
+    color #2E1A15
+
+.skills-js
+    margin-top 35px
+    margin-left 100px
+
+#slider
+    margin-left 20px
+    margin-right 117px
+
+.border-skills
+    margin-top -11px
+    float left
+
+.border-skill1
+    margin-left 118px
+
+.border-skill2
+    margin-left 158px
+
+.border-skill3
+    margin-left 230px
+
+.border-skill4
+    margin-top -12px
+    margin-left 757px
+
+.clear
+    clear both
+
+.uroven-block
+    margin-top 5px
+    float left !important
+    font-family fontPt
+    font-size 13px
+    font-weight bold
+    color #2E1A15
+
+.uroven-block1
+    margin-left 118px
+
+.uroven-block2
+    margin-top 1px !important
+    margin-left 98px
+
+.uroven-block3
+    margin-top 1px !important
+    margin-left 65px
+
+.uroven-block4
+    sizes = 69px 11px
+    margin-left sizes[0]
+
+.ui-slider
+	position relative
+	text-align left
+
+.ui-slider .ui-slider-handle
+   position absolute
+   z-index 22
+   width 15px
+   height 13px
+   background url(../images/kursor1.png) no-repeat
+   outline none
+   cursor pointer
+
+.ui-slider .ui-slider-range
+	z-index 1
+	font-size .7em
+	display block
+	border 0
+	background-position 0 0
+
+/* For IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range
+	filter inherit
+
+.ui-slider-horizontal
+	height .8em
+
+.ui-slider-horizontal .ui-slider-handle
+	top -.3em
+	margin-left -.6em
+
+.ui-slider-horizontal .ui-slider-range
+	top 0
+	height 100%
+
+.ui-slider-horizontal .ui-slider-range-min
+	left 0
+
+.ui-slider-horizontal .ui-slider-range-max
+	right 0
+
+.ui-slider-vertical
+	width .8em
+	height 100px
+
+.ui-slider-vertical .ui-slider-handle
+	left -.3em
+	margin-left 0
+	margin-bottom -.6em
+
+.ui-slider-vertical .ui-slider-range
+	left 0
+	width 100%
+
+.ui-slider-vertical .ui-slider-range-min
+	bottom 0
+
+.ui-slider-vertical .ui-slider-range-max
+	top 0
+
+/* Component containers
+----------------------------------*/
+.ui-widget-content
+    background url(../images/border8.gif) no-repeat
+
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default
+    margin-top -9px
+    margin-left -10px
+
+/* Адаптивный дизайн
+@import '../responsive/320.styl'
+@import '../responsive/320_480.styl'
+@import '../responsive/640_768.styl'
+@import '../responsive/640.styl'
+@import '../responsive/768.styl'
+
+

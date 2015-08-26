@@ -1,0 +1,215 @@
+﻿.conteiner
+                table.about-table
+                    tr
+                        td.about-table__left
+                            h3.about-table__h3 Полное ФИО
+                        td
+                            p.about-table__p Моисеев Евгений Викторович
+                            img.about-table__border(src="assets/images/border1.gif", alt="CSSSR", width="635", height="4")
+                table.about-table
+                    tr
+                        td.about-table__left
+                            h3.about-table__h3 Год рождения
+                        td
+                            p.about-table__p 1979
+                            img.about-table__border(src="assets/images/border2.gif", alt="CSSSR", width="618", height="4")
+                table.about-table
+                    tr
+                        td.about-table__left
+                            h3.about-table__h3 Место жительства
+                        td
+                            p.about-table__p г. Орел, Россия
+                            img.about-table__border(src="assets/images/border3.gif", alt="CSSSR", width="581", height="4")
+                table.about-table
+                    tr
+                        td.about-table__left
+                            h3.about-table__h3 Скайп
+                        td
+                            p.about-table__p
+                                a.about-table__skype(href="skype:just796?chat", title="Напишите мне в Skype") just796
+                            img.about-table__border(src="assets/images/border4.gif", alt="CSSSR", width="701", height="4")
+                table.about-table
+                    tr
+                        td.about-table__left
+                            h3.about-table__h3 Почта
+                        td
+                            p.about-table__p
+                                a.about-table__email(href="mailto:just8@mail.ru", title="Напишите мне на почту", target="_blank") just8@mail.ru
+                            img.about-table__border(src="assets/images/border5.gif", alt="CSSSR", width="698", height="4")
+                table.about-table-academy
+                    tr
+                        td.about-table__left
+                            h3.about-table-academy__h3 Выпускник
+                        td
+                            a.about-table-academy__link(href="http://htmlacademy.ru", title="htmlacademy.ru", target="_blank", rel="nofollow") htmlacademy.ru
+                        td(colspan="3")
+                            .about-table-academy__radio
+                                &nbsp;
+                                input(id="rb1", name="rd", type="radio", checked)
+                                label(for="rb1")
+                                    span
+                                    Да
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                input(id="rb2", name="rd", type="radio")
+                                label(for="rb2")
+                                    span
+                                    Нет
+
+                h3.naviki-h3 Практические навыки
+                table.naviki-info
+                    tr
+                        td(valign="top")
+                            p.naviki-info__star &lowast;
+                        td
+                            p.naviki-info__p Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутствие опыта отнюдь не означает,
+                                что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано
+                                будете справляться.
+
+                // Ограничиваем ширину таблицы с навыками. Обернув ее в блок.
+                #practical
+                    table.practical-skills
+                        tr
+                            td(width="33%")
+                                p.practical-skills__check
+                                    input(id="ch1", type="checkbox", checked)
+                                    label(for="ch1")
+                                        span
+                                        Методология БЭМ
+                            td(width="33%")
+                                p.practical-skills__check
+                                    input(id="ch2", type="checkbox", checked)
+                                    label(for="ch2")
+                                        span
+                                        b Jade
+                                        //script.
+                                           //var jade = "Jade";
+                                           //document.write(jade);
+                            td(width="33%")
+                                p.practical-skills__check
+                                    input(id="ch3", type="checkbox", checked)
+                                    label(for="ch3")
+                                        span
+                                        Верстка рассылок
+                        tr
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch4", type="checkbox", checked)
+                                    label(for="ch4")
+                                        span
+                                        b jQuery
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch5", type="checkbox", checked)
+                                    label(for="ch5")
+                                        span
+                                        b Stylus
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch6", type="checkbox", checked)
+                                    label(for="ch6")
+                                        span
+                                        Адаптивная верстка
+                        tr
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch7", type="checkbox", checked)
+                                    label(for="ch7")
+                                        span
+                                        Использую GRUNT
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch8", type="checkbox", checked)
+                                    label(for="ch8")
+                                        span
+                                        Знаю(изучаю)Angular
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch9", type="checkbox", checked)
+                                    label(for="ch9")
+                                        span
+                                        Использую DropBox
+                        tr
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch10", type="checkbox")
+                                    label(for="ch10")
+                                        span
+                                        b HAML
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch11", type="checkbox")
+                                    label(for="ch11")
+                                        span
+                                        Верстка под Android
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch12", type="checkbox", checked)
+                                    label(for="ch12")
+                                        span
+                                        Использую Gmail
+                        tr
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch13", type="checkbox")
+                                    label(for="ch13")
+                                        span
+                                        b SASS
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch14", type="checkbox")
+                                    label(for="ch14")
+                                        span
+                                        Верстка под iOS
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch15", type="checkbox", checked)
+                                    label(for="ch15")
+                                        span
+                                        Использую GitHub
+                        tr
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch16", type="checkbox", checked)
+                                    label(for="ch16")
+                                        span
+                                        b LESS
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch17", type="checkbox")
+                                    label(for="ch17")
+                                        span
+                                        Верстка под Windows Phone
+                            td(valign="top")
+                                p.practical-skills__check_top
+                                    input(id="ch18", type="checkbox", checked)
+                                    label(for="ch18")
+                                        span
+                                        b CoffeeScript
+
+                h3.skills-js-h3 Уровень владения JavaScript
+                .skills-js
+                    #slider
+
+                script.
+                    $(function() {
+                        $( "#slider" ).slider();
+                        $('#slider').slider('option', 'value', 52);
+
+                        var val=$('#slider').slider('option', 'value');
+                        console.log(val);
+
+                        var widthR = $(window).width();
+                        console.log(widthR);
+                    });
+
+                img.border-skills.border-skill1(src="assets/images/border9.gif", alt="CSSSR", width="3", height="26")
+                img.border-skills.border-skill2(src="assets/images/border10.gif", alt="CSSSR", width="3", height="14")
+                img.border-skills.border-skill3(src="assets/images/border10.gif", alt="CSSSR", width="3", height="14")
+                img.border-skills.border-skill4(src="assets/images/border9.gif", alt="CSSSR", width="3", height="25")
+
+                .clear
+
+                .uroven-block.uroven-block1 Не владею
+                .uroven-block.uroven-block2 Использую готовые решения
+                .uroven-block.uroven-block3 Использую готовые решения <br> и умею их переделывать
+                .uroven-block.uroven-block4 Пишу сложные скрипты
