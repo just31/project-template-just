@@ -13,8 +13,6 @@ npm i -g gulp bower
 
 Далее зависимости nmp, bower.
 
-npm i
-
-bower i
+npm i bower i
 
 Запуск проекта командой 'gulp'.
